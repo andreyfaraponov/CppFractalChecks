@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Fractol\ConcreteFractal\JuliaFractal.cpp" />
+    <ClCompile Include="Fractol\ConcreteFractal\MandelbrotFractal.cpp" />
+    <ClCompile Include="Fractol\ConcreteFractal\Other\OtherFifthFractal.cpp" />
+    <ClCompile Include="Fractol\ConcreteFractal\Other\OtherFirstFractal.cpp" />
+    <ClCompile Include="Fractol\ConcreteFractal\Other\OtherFourthFractal.cpp" />
+    <ClCompile Include="Fractol\ConcreteFractal\Other\OtherSecondFractal.cpp" />
+    <ClCompile Include="Fractol\ConcreteFractal\Other\OtherSixthFractal.cpp" />
+    <ClCompile Include="Fractol\ConcreteFractal\Other\OtherThirdFractal.cpp" />
+    <ClCompile Include="Fractol\FractalDrawer.cpp" />
+    <ClCompile Include="Fractol\Abstractions\AFractal.cpp" />
+    <ClCompile Include="Fractol\PixelDrawer.cpp" />
+    <ClCompile Include="SDL_Fractol.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Fractol\ConcreteFractal\JuliaFractal.h" />
+    <ClInclude Include="Fractol\ConcreteFractal\MandelbrotFractal.h" />
+    <ClInclude Include="Fractol\ConcreteFractal\Other\OtherFifthFractal.h" />
+    <ClInclude Include="Fractol\ConcreteFractal\Other\OtherFirstFractal.h" />
+    <ClInclude Include="Fractol\ConcreteFractal\Other\OtherFourthFractal.h" />
+    <ClInclude Include="Fractol\ConcreteFractal\Other\OtherSecondFractal.h" />
+    <ClInclude Include="Fractol\ConcreteFractal\Other\OtherSixthFractal.h" />
+    <ClInclude Include="Fractol\ConcreteFractal\Other\OtherThirdFractal.h" />
+    <ClInclude Include="Fractol\FractalDrawer.h" />
+    <ClInclude Include="Fractol\Abstractions\AFractal.h" />
+    <ClInclude Include="Fractol\PixelDrawer.h" />
+    <ClInclude Include="Fractol\CudaCalculations\CuCalculations.cuh" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="Fractol\CudaCalculations\CuCalculations.cu" />
+  </ItemGroup>
+</Project>
